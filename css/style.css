@@ -450,7 +450,7 @@ article.mapa{
 
 
 /* RESPONSIVE:MOBILE*/
-@media screen and (max-width: 480px){
+@media screen and (max-width: 375px){
     .index-grid {
         margin: 0%;
         display: grid;
