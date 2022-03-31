@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<!--Lenguaje del sitio-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rosario Insumos Agropecuarios</title>
+
+    <!--Mi CSS-->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body class="form-grid">
+    <header>
+        <nav class="navbar">
+            <h1 class="title">Rosario Insumos Agropecuarios</h1>
+            <ul>
+                <li>
+                    <a href="../index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="productos.html">Productos</a>
+                </li>
+                <li>
+                    <a href="servicios.html">Servicios</a>
+                </li>
+                <li>
+                    <a href="nosotros.html">Nosotros</a>
+                </li>
+                <li>
+                    <a href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+        <h1 class="title_contacto">CONTACTO</h1>
+    </header>
+
+    <a href="https://wa.me/3415317979?" class="whatsapp" target="_blank"> <i
+            class="fa fa-whatsapp whatsapp-icon"></i></a>
+
+    <!-- Formulario de contacto -->
+    <main>
+        <form action="#" class="form">
+            <label for="nombre" class="subtitle_form">
+                <input type="text" placeholder="Nombre" name="nombre" class="input">
+            </label>
+            <label for="email">
+                <input type="email" placeholder="aaa@gmail.com" name="email" class="input"><br>
+            </label>
+            <label for="ciudad" class="subtitle_form">
+                <select id="city-form" name="ciudad" class="input">
+                    <option selected>Ciudad...</option>
+                    <option>Rosario</option>
+                    <option>Buenos Aires</option>
+                    <option>Córdoba</option>
+                </select>
+            </label>
+            <label for="fecha" class="subtitle_form">
+                <input type="date" name="fecha" aria-describedby="descripcionfecha" class="input"><br>
+            </label>
+            <label for="mensaje" class="subtitle_form"><br>
+                <textarea placeholder="Dejanos tu mensaje..." name="mensaje" rows="2" class="input"></textarea><br>
+            </label>
+            <section class="botones">
+                <input type="submit" value="Enviar" class="btn">
+                <input type="reset" value="Limpiar formulario" class="btn">
+            </section>
+        </form>
+    </main>
+    <!-- cierre de form contacto -->
+    <!--iframe de maps-->
+    <article class="mapa">
+        <div class="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3347.768743767478!2d-60.680019685253676!3d-32.9571144797473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ab61e6c0edef%3A0x5f264163d640c058!2sRosario%20Insumos%20Agropecuarios%20Sa!5e0!3m2!1ses-419!2sar!4v1600122013890!5m2!1ses-419!2sar"
+                width="1340" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                tabindex="0"></iframe>
+        </div>
+    </article>
+
+    <!-- inicio de footer -->
+    <footer class="footer">
+        <p>ROSARIO INSUMOS AGROPECUARIOS S.A.</p>
+        <!--logo -->
+        <div class="redes">
+            <a href="https://www.facebook.com/">Facebook</a>
+            <a href="https://www.instagram.com/?hl=es">Instagram</a>
+            <a href="https://ar.linkedin.com/">Linkedin</a>
+        </div>
+        <div class="datos">
+            <p>rosarioinsumosagropecuarios@gmail.com</p>
+            <p>(0341) 431-9198 / WhatsApp: 341-5317979.</p>
+            <p>Rosario, Santa Fe, Argentina.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
