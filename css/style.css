@@ -446,6 +446,24 @@ article.mapa{
         padding: 4px;
         margin: 10px;
     }
+
+    .productos{
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: center;
+        margin: 5px;
+    }
+
+    .otros_productos{
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: center;
+        margin: 5px;
+    }
+
+    
 }
 
 
@@ -507,7 +525,5 @@ article.mapa{
         flex-flow: column wrap;
         margin: 150px 0px;
     }
-}
 
-/* Animaciones */
-
+    }
