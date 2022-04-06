@@ -53,26 +53,43 @@
     <!-- Formulario de contacto -->
     <main class="animate__animated animate__flip">
         <form action="#" class="form">
-            <label for="nombre" class="subtitle_form">
-                <input type="text" placeholder="Nombre" name="nombre" class="input">
-            </label>
-            <label for="email">
-                <input type="email" placeholder="aaa@gmail.com" name="email" class="input"><br>
-            </label>
-            <label for="ciudad" class="subtitle_form">
-                <select id="city-form" name="ciudad" class="input">
-                    <option selected>Ciudad...</option>
-                    <option>Rosario</option>
-                    <option>Buenos Aires</option>
-                    <option>Córdoba</option>
-                </select>
-            </label>
-            <label for="fecha" class="subtitle_form">
-                <input type="date" name="fecha" aria-describedby="descripcionfecha" class="input"><br>
-            </label>
-            <label for="mensaje" class="subtitle_form"><br>
-                <textarea placeholder="Dejanos tu mensaje..." name="mensaje" rows="2" class="input"></textarea><br>
-            </label>
+            <div class="form-row">
+                <div class="col">
+                    <input type="text" class="form-control" name="nombre" placeholder="Nombre y apellido" required>
+                </div>
+                <div class="col">
+                    <input type="email" class="form-control" name="email" placeholder="aaa@gmail.com" required>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="col-md-6 mb-3">
+                    <input type="text" class="form-control" id="validationCustom03" placeholder="Ciudad" required>
+                    <div class="invalid-feedback">
+                        Por favor ingresá una ciudad
+                    </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <input type="text" class="form-control" id="validationCustom04" placeholder="Provincia" required>
+                    <div class="invalid-feedback">
+                        Por favor ingresá una provincia.
+                    </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <input type="text" class="form-control" id="validationCustom05" placeholder="Código postal"
+                        required>
+                    <div class="invalid-feedback">
+                        Por favor ingresa un código postal.
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <label for="fecha" class="subtitle_form">
+                    <input type="date" name="fecha" aria-describedby="descripcionfecha" class="form-control">
+                </label>
+            </div>
+            <div class="form-group">
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Mensaje..."></textarea>
+            </div>
             <section class="botones">
                 <input type="submit" value="Enviar" class="btn">
                 <input type="reset" value="Limpiar formulario" class="btn">
