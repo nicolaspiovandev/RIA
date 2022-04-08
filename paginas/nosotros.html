@@ -8,19 +8,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rosario Insumos Agropecuarios</title>
 
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
     <!--Mi CSS-->
     <link rel="stylesheet" href="../css/style.css">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- Animaciones -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 
-<body>
-    <header>
-        <nav class="navbar">
+<body class="container-fluid">
+
+    <header class="row header">
+        <nav class="col navbar">
             <div class="animate__animated animate__fadeInLeft">
-                <h1 class="title">Rosario Insumos Agropecuarios</h1>
+                <a class="span" href="../index.html">
+                    <h1 class="title">Rosario Insumos Agropecuarios</h1>
+                </a>
             </div>
             <ul>
                 <li class="animate__animated animate__fadeInLeft">
@@ -44,108 +51,141 @@
         <a href="https://wa.me/3415317979?" class="whatsapp" target="_blank"> <i
                 class="fa fa-whatsapp whatsapp-icon"></i></a>
 
-        <h1 class="title_nosotros">NOSOTROS</h1>
     </header>
 
-    <main>
-        <h2 class="title_historia">Historia</h2>
+    <main class="row">
+        <div class="col">
+            <div class="row video_container">
+                <h2 class="title_historia">Historia</h2>
 
-        <div class="video_container">
-            <iframe src="../multimedia/ria.MP4" frameborder="0" class="video animate__animated animate__zoomInDown"></iframe>
-        </div>
+                <div>
+                    <iframe src="../multimedia/ria.MP4" frameborder="0"
+                        class="video animate__animated animate__zoomInDown"></iframe>
+                </div>
+            </div>
 
-        <div class="historia">
-            <p> Nacemos como un negocio familiar en Rosario el 01-02-1988 y nos establecemos en un local sobre Av. Godoy
-                al 3430 donde estuvimos durante 19 años, hasta que a fines de 2006 conseguimos arrendar la esquina de
-                <b>Av.Godoy y Constitución</b>, donde hoy nos encontramos.
-                La idea original fue crear una empresa que ofreciera al productor de <b>campo</b> la mayor parte de los
-                elementos
-                requeridos para su explotación. No existía en aquella época en <b>Rosario</b> un negocio de estas
-                características.
-            </p>
 
-            <p>Fuimos
-                habilitados en un principio para la comercialización de <b>Productos Veterinarios, Artículos Rurales,
-                    y Agroquímicos.</b>
-                Con el tiempo nos fuimos concentrando con mayor ímpetu en el <b>sector pecuario e hípico</b>. Años más
-                tarde y
-                debido a la rápida difusión de los alimentos balanceados incursionamos en el mercado de <b>insumos para
-                    mascotas</b> también.
-            </p>
+            <div class="row historia">
+                <p> Nacemos como un negocio familiar en Rosario el 01-02-1988 y nos establecemos en un local sobre Av.
+                    Godoy
+                    al 3430 donde estuvimos durante 19 años, hasta que a fines de 2006 conseguimos arrendar la esquina
+                    de
+                    <b>Av.Godoy y Constitución</b>, donde hoy nos encontramos.
+                    La idea original fue crear una empresa que ofreciera al productor de <b>campo</b> la mayor parte de
+                    los
+                    elementos
+                    requeridos para su explotación. No existía en aquella época en <b>Rosario</b> un negocio de estas
+                    características.
+                </p>
 
-            <p>Como todo comercio independiente, hemos atravesado en nuestros <b>mas de 30 años</b> de existencia épocas
-                más o
-                menos críticas, sin embargo, gracias a la <b>confianza de nuestros clientes</b> seguimos avanzando y
-                evolucionando
-                en el mercado.
+                <p>Fuimos
+                    habilitados en un principio para la comercialización de <b>Productos Veterinarios, Artículos
+                        Rurales,
+                        y Agroquímicos.</b>
+                    Con el tiempo nos fuimos concentrando con mayor ímpetu en el <b>sector pecuario e hípico</b>. Años
+                    más
+                    tarde y
+                    debido a la rápida difusión de los alimentos balanceados incursionamos en el mercado de <b>insumos
+                        para
+                        mascotas</b> también.
+                </p>
 
-                Paulatinamente nos fuimos afianzando y logramos apertura de cuentas en <b>laboratorios nacionales y
-                    multinacionales</b> cuyos vendedores, gerentes regionales y profesionales responsables de sus
-                departamentos
-                técnicos, nos visitan regularmente ofreciendo asesoramiento y respaldo especializado.
-            </p>
+                <p>Como todo comercio independiente, hemos atravesado en nuestros <b>mas de 30 años</b> de existencia
+                    épocas
+                    más o
+                    menos críticas, sin embargo, gracias a la <b>confianza de nuestros clientes</b> seguimos avanzando y
+                    evolucionando
+                    en el mercado.
 
-        </div>
+                    Paulatinamente nos fuimos afianzando y logramos apertura de cuentas en <b>laboratorios nacionales y
+                        multinacionales</b> cuyos vendedores, gerentes regionales y profesionales responsables de sus
+                    departamentos
+                    técnicos, nos visitan regularmente ofreciendo asesoramiento y respaldo especializado.
+                </p>
+            </div>
 
-        <h2 class="title_objetivos">Objetivos</h2>
 
-        <div class="objetivos">
-            <p> Nuestro <b>objetivo primordial</b> fue formar un grupo de colaboradores abocados íntegramente al éxito
-                del
-                negocio, para lo cual disponen de plena libertad para desarrollar su creatividad y aplicar sus
-                conocimientos. El <b>trabajo</b> en armonía, con diversidad de criterios, lo consideramos esencial para
-                la toma
-                de <b>decisiones acertadas</b>.
-            </p>
+            <div class="row objetivos">
+                <h2 class="title_objetivos">Objetivos</h2>
+                <p> Nuestro <b>objetivo primordial</b> fue formar un grupo de colaboradores abocados íntegramente al
+                    éxito
+                    del
+                    negocio, para lo cual disponen de plena libertad para desarrollar su creatividad y aplicar sus
+                    conocimientos. El <b>trabajo</b> en armonía, con diversidad de criterios, lo consideramos esencial
+                    para
+                    la toma
+                    de <b>decisiones acertadas</b>.
+                </p>
 
-            <p>Igualmente importante es mantener una conducta mesurada en <b>inversiones para la comercialización</b>.
-                Cumplir puntualmente nuestros <b>compromisos comerciales</b>, asegurando la conservación y el eventual
-                incremento de nuestros activos negociables.
-                Mejorar la <b>tecnificación informática</b> con el objetivo de aumentar nuestros canales de venta, sin
-                resignar
-                el <b>contacto personal</b> con aquellos que así lo requieran.
-            </p>
+                <p>Igualmente importante es mantener una conducta mesurada en <b>inversiones para la
+                        comercialización</b>.
+                    Cumplir puntualmente nuestros <b>compromisos comerciales</b>, asegurando la conservación y el
+                    eventual
+                    incremento de nuestros activos negociables.
+                    Mejorar la <b>tecnificación informática</b> con el objetivo de aumentar nuestros canales de venta,
+                    sin
+                    resignar
+                    el <b>contacto personal</b> con aquellos que así lo requieran.
+                </p>
 
-            <p>Mantener siempre la premisa que nuestro <b>capital real son nuestros clientes</b>, muchos de los cuales
-                vienen
-                de nuestra época fundacional y ya varios nos visitan en segunda y tercera generación. Lamentamos
-                aquellos que ya no están entre nosotros, que en su mayoría nos han dejado una enseñanza y su grato
-                recuerdo.
-            </p>
-        </div>
+                <p>Mantener siempre la premisa que nuestro <b>capital real son nuestros clientes</b>, muchos de los
+                    cuales
+                    vienen
+                    de nuestra época fundacional y ya varios nos visitan en segunda y tercera generación. Lamentamos
+                    aquellos que ya no están entre nosotros, que en su mayoría nos han dejado una enseñanza y su grato
+                    recuerdo.
+                </p>
+            </div>
 
-        <h2 class="title_vision">Visión</h2>
 
-        <div class="vision">
-            <p> Vivimos un país cuya extensión territorial, su demografía y su diversidad climática se conjugan para
-                convertirlo en excelente <b>productor agroganadero</b>, actividad que nunca debió subvencionarse y nos
-                abrió
-                numerosos mercados internacionales otorgando una marca Premium a nuestras <b>carnes</b> en el mundo,
-                constituyendo uno de los grandes recursos para el desarrollo nacional.
-            </p>
+            <div class="row vision">
+                <h2 class="title_vision">Visión</h2>
+                <p> Vivimos un país cuya extensión territorial, su demografía y su diversidad climática se conjugan para
+                    convertirlo en excelente <b>productor agroganadero</b>, actividad que nunca debió subvencionarse y
+                    nos
+                    abrió
+                    numerosos mercados internacionales otorgando una marca Premium a nuestras <b>carnes</b> en el mundo,
+                    constituyendo uno de los grandes recursos para el desarrollo nacional.
+                </p>
 
-            <p> <b>Nuestro propósito es optimizar esfuerzos y aportar experiencia</b>, colaborando al mejoramiento de
-                éste
-                amplio e imprescindible sector.
-            </p>
+                <p> <b>Nuestro propósito es optimizar esfuerzos y aportar experiencia</b>, colaborando al mejoramiento
+                    de
+                    éste
+                    amplio e imprescindible sector.
+                </p>
+            </div>
         </div>
     </main>
 
     <!-- inicio de footer -->
-    <footer class="footer">
-        <p>ROSARIO INSUMOS AGROPECUARIOS S.A.</p>
+    <footer class="row footer">
+        <div class="col-sm-12 col-lg-4 title-footer">
+            <p">ROSARIO INSUMOS AGROPECUARIOS S.A.</p>
+        </div>
         <!--logo -->
-        <div class="redes">
+        <div class="col-sm-12 col-lg-4 redes">
             <a href="https://www.facebook.com/">Facebook</a>
             <a href="https://www.instagram.com/?hl=es">Instagram</a>
             <a href="https://ar.linkedin.com/">Linkedin</a>
         </div>
-        <div class="datos">
+        <div class="col-sm-12 col-lg-4 datos">
             <p>rosarioinsumosagropecuarios@gmail.com</p>
             <p>(0341) 431-9198 / WhatsApp: 341-5317979.</p>
             <p>Rosario, Santa Fe, Argentina.</p>
         </div>
     </footer>
+
+
+    <!-- Script JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

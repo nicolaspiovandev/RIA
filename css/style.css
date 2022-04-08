@@ -10,6 +10,17 @@ html, body {
     background-color: #B5C99A;
 }
 
+body{
+    overflow-x: hidden;
+}
+.span{
+    text-decoration: none;
+
+}
+.span:hover{
+    text-decoration: none;
+}
+
 /* Navbar */
 .navbar ul li{
     border: solid 1.5px black;
@@ -117,21 +128,30 @@ a:hover{
 
 /* Footer */
 .footer{
-    margin:0%;
     border: solid 2px black;
     background-color: rgba(255, 255, 255, 0.925);
     display: flex;
-    justify-content: space-evenly;
+    align-items: center;
     
-
+}
+.footer p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.title-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .redes a{
     margin: 3px;
 }
 .redes{
     display: flex;
-    flex-direction: row;
     align-items: center;
+    justify-content: center;
     
     
 }
@@ -139,6 +159,7 @@ a:hover{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 .footer p{
     display: flex;
@@ -147,60 +168,6 @@ a:hover{
     
 }
 
-/* GRIDS INDEX */
-.index-grid{
-    display: grid; 
-    grid-template-columns: 1fr 1fr 1fr; 
-    grid-template-rows: 10% 35% 20% 20% 15%; 
-    gap: 0px 0px; 
-    grid-template-areas: 
-    "header header header"
-    "carrousel carrousel carrousel"
-    "productos productos productos"
-    "marcas marcas marcas"
-    "footer footer footer"; 
-    
-}
-
-
-header{
-    grid-area: header;
-}
-section{
-    grid-area: carrousel;
-}
-main{
-    grid-area: productos;
-}
-article.test{
-    grid-area: marcas;
-}
-footer{
-    grid-area: footer;
-}
-
-/* Maps */
-.mapa{
-    display: flex;
-    justify-content: baseline;
-    
-}
-
-/* GRIDS CONTACTO */
-.form-grid{
-    display: grid; 
-    grid-template-columns: 1fr 1fr 1fr; 
-    grid-template-rows: 10% 40% 35% 15%; 
-    gap: 10px 10px; 
-    grid-template-areas: 
-    "header header header"
-    "productos productos productos"
-    "marcas marcas marcas"
-    "footer footer footer";
-}
-article.mapa{
-    grid-area: marcas;
-}
 
 
 /* /* Contacto */
@@ -235,23 +202,38 @@ article.mapa{
     background-color: #487429;
     color: rgb(255, 255, 255);
     border: none;
-    height: 26px ;
+    height: 35px ;
     font-weight: bold;
     
     
 } 
 
+.btn:hover{
+    border: 1px solid #83D80D;
+}
+.map iframe{
+    max-width: 100%;
+    
+    
+    
+}
+
 
 /* Productos */
+.main-productos{
+    margin: 35px 0px;
+}
 .title_productos{
     color:rgb(0, 134, 40);
     text-align: center;
     text-decoration: none;
 }
 .productos{
-    margin: 30px 350px;
+    margin: 30px 0px;
     padding: 30px;
-    display: inline-flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     border: 1px solid black;
     text-align: center;
 }
@@ -266,21 +248,21 @@ article.mapa{
     text-decoration: none;
 }
 .otros_productos{
-    margin: 50px 30px;
+    margin: 30px 0px;
     padding: 30px;
-    display: inline-flex;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     border: 1px solid black;
     text-align: center;
-    overflow:auto;
+    
 }
 .otros_articulos {
     margin: 20px;
     display: block;
     text-align: center;
 }
-.intervalo{
-    margin: 100px 100px;
-}
+
 /* Nosotros */
 .title_nosotros{
     margin: 0;
@@ -298,10 +280,9 @@ article.mapa{
     font-weight: bold;
     color: rgb(0, 134, 40);
 }
-.video.container{
-    margin: 30px;
+.video_container{
     display: flex;
-    align-items: end;
+    justify-content: space-between;
 }
 .video{
     margin: 30px;
@@ -341,14 +322,6 @@ article.mapa{
     background-color: #CFE1B9;
 }
 /* Servicios */
-.title_servicios{
-    margin: 0;
-    text-align: center;
-    color:rgb(0, 134, 40);
-    font-weight: bold;
-    border: solid 3px black;
-    height: 80px;
-}
 .title_despachos{
     margin: 30px;
     padding: 0px;
@@ -392,57 +365,33 @@ article.mapa{
 /* RESPONSIVE:TABLET*/
 
 @media screen and (max-width: 768px){
-    .index-grid{
-        display: grid; 
-        grid-template-columns: 1fr 1fr 1fr; 
-        grid-template-rows: 10% 40% 17.5% 17.5% 15%; 
-        
+    .navbar{
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
     }
     .carrousel{
-        grid-area: carrousel;
         display: flex;
         flex-flow: row wrap;
         justify-content: center;
         align-items: center;
     }
     .productos_d{
-        grid-area:productos;
         display: flex;
         flex-flow:row wrap ;
     }
-    .footer{
-        grid-area: footer;
+    .footer div{
         display: flex;
-        flex-flow: column;
+        flex-flow: column wrap;
         align-items: center;
         text-align: center;
-    }
-    .form-grid{
-        display: grid; 
-        grid-template-columns: 1fr 1fr 1fr; 
-        grid-template-rows: 10% 40% 35% 15%; 
-        gap: 10px 10px; 
-
+        
     }
     .form{
-        grid-area: carrousel;
         display: flex;
         flex-flow: column wrap;
         justify-content: center;
-    }
-    .map{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .map iframe{
-        width: auto;
-        
-    }
-    article.mapa{
-        grid-area: marcas;
-        display: flex;
-        flex-flow: column;
+        align-content: center;
     }
     .botones{
         display: flex;
@@ -461,19 +410,6 @@ article.mapa{
 
 /* RESPONSIVE:MOBILE*/
 @media screen and (max-width: 375px){
-    .index-grid {
-        margin: 0%;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 10% 45% 17.5% 17.5% 10%;
-        gap: 0px 0px;
-        grid-template-areas:
-            "header"
-            "carrousel"
-            "productos"
-            "marcas"
-            "footer";
-    }
     .navbar ul{
         display: flex;
         flex-flow: column wrap;
@@ -483,11 +419,6 @@ article.mapa{
     }
     ul{
         padding: 0;
-    }
-    .navbar{
-        display: flex;
-        flex-flow: column wrap;
-        align-items: center;
     }
     .navbar h1{
         text-align: center;
@@ -500,18 +431,6 @@ article.mapa{
     .carrousel{
         margin: 5px;
     }
-
-    .form-grid{
-        display: grid; 
-        grid-template-columns: 1fr; 
-        grid-template-rows: 10% 40% 35% 15%; 
-        gap: 50px 30px; 
-        grid-template-areas: 
-        "header"
-        "productos"
-        "marcas"
-        "footer";
-    }
     .form{
         display: flex;
         flex-flow: column wrap;
@@ -519,5 +438,5 @@ article.mapa{
     }
 }
 
-/* Animaciones */
+
 
