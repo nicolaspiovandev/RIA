@@ -20,11 +20,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 
-<body class="form-grid">
-    <header>
-        <nav class="navbar">
+<body class="container-fluid form-grid">
+
+    <header class="row">
+        <nav class="col navbar">
             <div class="animate__animated animate__fadeInLeft">
-                <h1 class="title">Rosario Insumos Agropecuarios</h1>
+                <a class="span" href="../index.html"><h1 class="title">Rosario Insumos Agropecuarios</h1></a>
             </div>
             <ul>
                 <li class="animate__animated animate__fadeInLeft">
@@ -44,15 +45,14 @@
                 </li>
             </ul>
         </nav>
-        <h1 class="title_contacto">CONTACTO</h1>
     </header>
 
     <a href="https://wa.me/3415317979?" class="whatsapp" target="_blank"> <i
             class="fa fa-whatsapp whatsapp-icon"></i></a>
 
     <!-- Formulario de contacto -->
-    <main class="animate__animated animate__flip">
-        <form action="#" class="form">
+    <main class="row animate__animated animate__flip">
+        <form action="#" class="col form">
             <div class="form-row">
                 <div class="col">
                     <input type="text" class="form-control" name="nombre" placeholder="Nombre y apellido" required>
@@ -82,15 +82,16 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col-sm-0">
                 <label for="fecha" class="subtitle_form">
                     <input type="date" name="fecha" aria-describedby="descripcionfecha" class="form-control">
                 </label>
             </div>
             <div class="form-group">
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Mensaje..."></textarea>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                    placeholder="Mensaje..."></textarea>
             </div>
-            <section class="botones">
+            <section class="col botones">
                 <input type="submit" value="Enviar" class="btn">
                 <input type="reset" value="Limpiar formulario" class="btn">
             </section>
@@ -98,25 +99,27 @@
     </main>
     <!-- cierre de form contacto -->
     <!--iframe de maps-->
-    <article class="mapa">
-        <div class="map">
+    <span class="mapa">
+        <div class="col map">
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3347.768743767478!2d-60.680019685253676!3d-32.9571144797473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ab61e6c0edef%3A0x5f264163d640c058!2sRosario%20Insumos%20Agropecuarios%20Sa!5e0!3m2!1ses-419!2sar!4v1600122013890!5m2!1ses-419!2sar"
                 width="1340" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
                 tabindex="0"></iframe>
         </div>
-    </article>
+    </span>
 
     <!-- inicio de footer -->
-    <footer class="footer">
-        <p>ROSARIO INSUMOS AGROPECUARIOS S.A.</p>
+    <footer class="row footer">
+        <div class="col-sm-12 col-lg-4 title-footer">
+            <p">ROSARIO INSUMOS AGROPECUARIOS S.A.</p>
+        </div>
         <!--logo -->
-        <div class="redes">
+        <div class="col-sm-12 col-lg-4 redes">
             <a href="https://www.facebook.com/">Facebook</a>
             <a href="https://www.instagram.com/?hl=es">Instagram</a>
             <a href="https://ar.linkedin.com/">Linkedin</a>
         </div>
-        <div class="datos">
+        <div class="col-sm-12 col-lg-4 datos">
             <p>rosarioinsumosagropecuarios@gmail.com</p>
             <p>(0341) 431-9198 / WhatsApp: 341-5317979.</p>
             <p>Rosario, Santa Fe, Argentina.</p>
