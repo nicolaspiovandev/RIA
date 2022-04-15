@@ -1,7 +1,27 @@
 $colorPrincipal: #B5C99A;
-$fuentePrincipal: 'Work Sans', sans-serif;
+$fuentePrincipal: 'Work Sans',
+sans-serif;
 $margenPrincipal: 0;
 $paddingPrincipal: 0;
 $colorLetra: rgb(0, 134, 40);
 $footernavColor: rgba(255, 255, 255, 0.925);
 $bordePrincipal: solid 1px black;
+
+/* Mapa */
+$estilos: (
+    color: #0b1004a9,
+    font-w: 400,
+    borde: 1px solid #83D80D,
+    colorFondo: rgb(255, 255, 255),
+    bordeRadio: 0px,
+    margen: 15px 0px,
+    altura: 36px,
+);
+
+/* Mixin */
+@mixin flex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    
+}

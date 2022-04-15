@@ -5,28 +5,18 @@
     margin: 100px;
 }
 
-.title_contacto {
-    margin: 0;
-    text-align: center;
-    color: $colorLetra;
-    font-weight: bold;
-    border: solid 3px black;
-    height: 80px;
-
-}
-
 .subtitle_form {
     color: $colorLetra;
 }
 
 .form-control {
-    color: #0b1004a9;
-    font-weight: 400;
-    border: 1px solid #83D80D;
-    background: rgb(255, 255, 255);
-    border-radius: 0px;
-    margin: 15px 0px;
-    height: 36px;
+    color: map-get($map:$estilos, $key:color);
+    font-weight:map-get($map:$estilos, $key:font-w);
+    border: map-get($map:$estilos, $key: borde);
+    background: map-get($map:$estilos, $key: colorFondo);
+    border-radius: map-get($map:$estilos, $key: bordeRadio);
+    margin: map-get($map:$estilos, $key: margen);
+    height: map-get($map:$estilos, $key: altura);
 }
 
 .btn {

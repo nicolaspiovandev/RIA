@@ -28,9 +28,7 @@
 }
 
 .productos_d {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
+    @include flex;
     border: $bordePrincipal;
 }
     .articulos_d {
@@ -47,9 +45,7 @@
 }
 
 .marcas {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
+    @include flex;
     border: $bordePrincipal;
 }
 

@@ -50,6 +50,7 @@ body {
         justify-content: flex-end;
         list-style: none;
         margin: 30px;
+
         li {
             border: solid 1.5px black;
             text-decoration: none;
@@ -100,11 +101,15 @@ a {
     align-items: center;
 
     p {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        @extend %displayp;
     }
+}
+
+%displayp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .title-footer {

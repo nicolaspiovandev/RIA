@@ -8,15 +8,6 @@
     height: 80px;
 }
 
-.title_historia {
-    margin: 30px;
-    padding: $paddingPrincipal;
-    text-align: start;
-    text-decoration: underline;
-    font-weight: bold;
-    color: $colorLetra;
-}
-
 .video_container {
     display: flex;
     justify-content: space-between;
@@ -28,20 +19,33 @@
 
 }
 
+
+
+.title_historia{
+    margin: 30px;
+    padding: $paddingPrincipal;
+    text-align: start;
+    text-decoration: underline;
+    font-weight: bold;
+    color: $colorLetra;
+    
+}
+
+.title_objetivos {
+    @extend .title_historia;
+    background-color: #CFE1B9;
+}
+
+.title_vision {
+    @extend .title_historia;
+}
+
 .historia {
     p {
     margin: 15px;
     border: $bordePrincipal;
     background-color: #CFE1B9;
 }
-}
-.title_objetivos {
-    margin: 30px;
-    padding: $paddingPrincipal;
-    text-align: center;
-    text-decoration: underline;
-    font-weight: bold;
-    color: $colorLetra;
 }
 
 .objetivos {
@@ -52,14 +56,6 @@
 }
 }
 
-.title_vision {
-    margin: 30px;
-    padding: $paddingPrincipal;
-    text-align: start;
-    text-decoration: underline;
-    font-weight: bold;
-    color: $colorLetra;
-}
 
 .vision {
     p {
