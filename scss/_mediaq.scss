@@ -1,0 +1,112 @@
+/* RESPONSIVE:TABLET*/
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+    }
+
+    .carrousel {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .productos_d {
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    .footer {
+
+        div {
+            display: flex;
+            flex-flow: column wrap;
+            align-items: center;
+            text-align: center;
+
+        }
+    }
+
+    .form {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .botones {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+        padding: 5px;
+    }
+
+    .btn {
+        padding: 4px;
+        margin: 10px;
+    }
+
+    .productos {
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: center;
+        margin: 5px;
+    }
+
+    .otros_productos {
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: center;
+        margin: 5px;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+    .navbar {
+        ul {
+            display: flex;
+            flex-flow: column wrap;
+            align-items: center;
+            justify-content: center;
+            margin: 5px;
+        }
+    }
+
+    ul {
+        padding: 0;
+    }
+
+    .navbar {
+        h1 {
+            text-align: center;
+        }
+    }
+
+    .navbar {
+        ul {
+            li {
+                margin: 0;
+                padding: 3px;
+            }
+        }
+    }
+
+    .carrousel {
+        margin: 5px;
+    }
+
+    .form {
+        display: flex;
+        flex-flow: column wrap;
+        margin: 150px 0px;
+    }
+
+}

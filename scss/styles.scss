@@ -1,5 +1,15 @@
 @import "variables";
 @import "index";
+@import "contacto";
+@import "nosotros";
+@import "productos";
+@import "servicios";
+@import "mediaq";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
 
 /* Estilos generales */
 * {
@@ -40,13 +50,14 @@ body {
         justify-content: flex-end;
         list-style: none;
         margin: 30px;
+        li {
+            border: solid 1.5px black;
+            text-decoration: none;
+            margin: 4px;
+        }
     }
 
-    li {
-        border: solid 1.5px black;
-        text-decoration: none;
-        margin: 4px;
-    }
+
 }
 
 a {

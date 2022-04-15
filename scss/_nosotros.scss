@@ -1,0 +1,70 @@
+/* Nosotros */
+.title_nosotros {
+    margin: $margenPrincipal;
+    text-align: center;
+    color: $colorLetra;
+    font-weight: bold;
+    border: solid 3px black;
+    height: 80px;
+}
+
+.title_historia {
+    margin: 30px;
+    padding: $paddingPrincipal;
+    text-align: start;
+    text-decoration: underline;
+    font-weight: bold;
+    color: $colorLetra;
+}
+
+.video_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.video {
+    margin: 30px;
+    border: solid 2px #CFE1B9;
+
+}
+
+.historia {
+    p {
+    margin: 15px;
+    border: $bordePrincipal;
+    background-color: #CFE1B9;
+}
+}
+.title_objetivos {
+    margin: 30px;
+    padding: $paddingPrincipal;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    color: $colorLetra;
+}
+
+.objetivos {
+    p {
+    margin: 15px;
+    border: $bordePrincipal;
+    background-color: #CFE1B9;
+}
+}
+
+.title_vision {
+    margin: 30px;
+    padding: $paddingPrincipal;
+    text-align: start;
+    text-decoration: underline;
+    font-weight: bold;
+    color: $colorLetra;
+}
+
+.vision {
+    p {
+    margin: 15px;
+    border: $bordePrincipal;
+    background-color: #CFE1B9;
+}
+}

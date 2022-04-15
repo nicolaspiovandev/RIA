@@ -1,0 +1,49 @@
+/* Productos */
+.main-productos {
+    margin: 35px 0px;
+}
+
+.title_productos {
+    color: $colorLetra;
+    text-align: center;
+    text-decoration: none;
+}
+
+.productos {
+    margin: 30px 0px;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: $bordePrincipal;
+    text-align: center;
+}
+
+.articulos {
+    margin: 20px;
+    display: block;
+    text-align: center;
+}
+
+.title_otrosproductos {
+    color: $colorLetra;
+    text-align: center;
+    text-decoration: none;
+}
+
+.otros_productos {
+    margin: 30px 0px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: $bordePrincipal;
+    text-align: center;
+
+}
+
+.otros_articulos {
+    margin: 20px;
+    display: block;
+    text-align: center;
+}

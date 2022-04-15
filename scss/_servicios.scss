@@ -1,0 +1,51 @@
+/* Servicios */
+.title_despachos {
+    margin: 30px;
+    padding: $paddingPrincipal;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    color: $colorLetra;
+}
+
+.despachos {
+    p{
+    margin: 15px;
+    border: $bordePrincipal;
+    background-color: #CFE1B9;
+}
+}
+
+.title_caravanas {
+    margin: 30px;
+    padding: $paddingPrincipal;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    color: $colorLetra;
+}
+
+.caravanas {
+    p{
+    margin: 15px;
+    border: $bordePrincipal;
+    background-color: #CFE1B9;
+}
+}
+
+.title_reparaciones {
+    margin: 30px;
+    padding: $paddingPrincipal;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    color: $colorLetra;
+}
+
+.reparaciones {
+    p{
+    margin: 15px;
+    border: $bordePrincipal;
+    background-color: #CFE1B9;
+}
+}
