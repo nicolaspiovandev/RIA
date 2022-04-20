@@ -9,10 +9,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-size: contain;
 }
 
 .image {
     margin: 15px;
+    background-size: cover;
 }
 
 .slider-control {

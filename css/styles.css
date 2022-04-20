@@ -11,10 +11,12 @@
   margin: 100px 0px;
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  background-size: contain; }
 
 .image {
-  margin: 15px; }
+  margin: 15px;
+  background-size: cover; }
 
 .slider-control {
   width: 50px;
