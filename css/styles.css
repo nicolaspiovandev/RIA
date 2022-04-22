@@ -4,7 +4,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
 .title {
-  color: #008628;
+  color: #1b2012c5;
   margin: 30px; }
 
 .carrousel {
@@ -39,9 +39,11 @@
 
 .title_marcas {
   text-align: center;
-  text-decoration: underline;
+  text-decoration: none;
   font-weight: bold;
-  color: #008628; }
+  color: #1b2012c5; }
+  .title_marcas:hover {
+    text-decoration: underline; }
 
 .marcas {
   display: flex;
@@ -53,6 +55,8 @@
   margin: 25px;
   display: flex;
   border: solid 1px #a4bba4; }
+  .laboratorios:hover {
+    background-color: #a4bba4; }
 
 /* Contacto */
 .form {
@@ -60,12 +64,12 @@
   margin: 100px; }
 
 .subtitle_form {
-  color: #008628; }
+  color: #1b2012c5; }
 
 .form-control {
   color: #0b1004a9;
   font-weight: 400;
-  border: 1px solid #83D80D;
+  border: 1px solid #83d80db9;
   background: white;
   border-radius: 0px;
   margin: 15px 0px;
@@ -87,7 +91,7 @@
 .title_nosotros {
   margin: 0;
   text-align: center;
-  color: #008628;
+  color: #1b2012c5;
   font-weight: bold;
   border: solid 3px black;
   height: 80px; }
@@ -106,7 +110,7 @@
   text-align: start;
   text-decoration: underline;
   font-weight: bold;
-  color: #008628; }
+  color: #1b2012c5; }
 
 .title_objetivos {
   background-color: #CFE1B9; }
@@ -131,9 +135,11 @@
   margin: 35px 0px; }
 
 .title_productos {
-  color: #008628;
+  color: #1b2012c5;
   text-align: center;
   text-decoration: none; }
+  .title_productos:hover {
+    background-color: beige; }
 
 .productos {
   margin: 30px 0px;
@@ -150,9 +156,11 @@
   text-align: center; }
 
 .title_otrosproductos {
-  color: #008628;
+  color: #1b2012c5;
   text-align: center;
   text-decoration: none; }
+  .title_otrosproductos:hover {
+    background-color: beige; }
 
 .otros_productos {
   margin: 30px 0px;
@@ -175,7 +183,7 @@
   text-align: center;
   text-decoration: underline;
   font-weight: bold;
-  color: #008628; }
+  color: #1b2012c5; }
 
 .despachos p {
   margin: 15px;
@@ -188,7 +196,7 @@
   text-align: center;
   text-decoration: underline;
   font-weight: bold;
-  color: #008628; }
+  color: #1b2012c5; }
 
 .caravanas p {
   margin: 15px;
@@ -201,7 +209,7 @@
   text-align: center;
   text-decoration: underline;
   font-weight: bold;
-  color: #008628; }
+  color: #1b2012c5; }
 
 .reparaciones p {
   margin: 15px;
@@ -285,7 +293,7 @@ html,
 body {
   scroll-behavior: smooth;
   font-family: "Work Sans", sans-serif;
-  background-color: #B5C99A; }
+  background-color: #718355; }
 
 body {
   overflow-x: hidden; }
@@ -293,11 +301,11 @@ body {
 .span {
   text-decoration: none; }
   .span:hover {
-    text-decoration: none; }
+    text-decoration: dotted; }
 
 /* Navbar */
 .navbar {
-  background-color: rgba(255, 255, 255, 0.925);
+  background-color: #E9F5DB;
   border: solid;
   display: flex;
   justify-content: space-between; }
@@ -314,7 +322,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #008628;
+  color: #1b2012c5;
   font-weight: normal; }
   a:hover {
     color: #0c0c0b; }
@@ -338,7 +346,7 @@ a {
 /* Footer */
 .footer {
   border: solid 2px black;
-  background-color: rgba(255, 255, 255, 0.925);
+  background-color: #E9F5DB;
   display: flex;
   align-items: center; }
 

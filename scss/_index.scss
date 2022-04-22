@@ -41,9 +41,13 @@
 
 .title_marcas {
     text-align: center;
-    text-decoration: underline;
+    text-decoration: none;
     font-weight: bold;
     color: $colorLetra;
+    &:hover {
+        text-decoration: underline;
+
+    }
 }
 
 .marcas {
@@ -55,4 +59,8 @@
         margin: 25px;
         display: flex;
         border: solid 1px rgb(164, 187, 164);
+        &:hover {
+            background-color: rgb(164, 187, 164);
+
+        }
     }

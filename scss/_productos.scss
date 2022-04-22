@@ -7,6 +7,10 @@
     color: $colorLetra;
     text-align: center;
     text-decoration: none;
+
+    &:hover{
+        background-color: beige;
+    }
 }
 
 .productos {
@@ -29,6 +33,10 @@
     color: $colorLetra;
     text-align: center;
     text-decoration: none;
+
+    &:hover{
+        background-color: beige;
+    }
 }
 
 .otros_productos {
