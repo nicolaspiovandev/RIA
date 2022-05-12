@@ -6,7 +6,11 @@
         flex-flow: column wrap;
         align-items: center;
     }
-
+    .span{
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+    }
     .carrousel {
         display: flex;
         flex-flow: row wrap;
@@ -70,37 +74,39 @@
 }
 
 @media screen and (max-width: 375px) {
-    .navbar {
-        ul {
-            display: flex;
-            flex-flow: column wrap;
-            align-items: center;
-            justify-content: center;
-            margin: 5px;
-        }
-    }
-
-    ul {
-        padding: 0;
-    }
-
-    .navbar {
-        h1 {
-            text-align: center;
-        }
-    }
-
-    .navbar {
-        ul {
-            li {
-                margin: 0;
-                padding: 3px;
+        .navbar {
+            ul {
+                display: flex;
+                flex-flow: column wrap;
+                align-items: center;
+                justify-content: center;
+                margin: 5px;
             }
         }
-    }
+
+        ul {
+            padding: 0;
+        }
+
+        .navbar {
+            h1 {
+                text-align: center;
+            }
+        }
+
+        .navbar {
+            ul {
+                li {
+                    display: flex;
+                    flex-direction: column;
+                    margin: 0;
+                    padding: 3px;
+                }
+            }
+        }
 
     .carrousel {
-        margin: 5px;
+        margin: 10px;
     }
 
     .form {

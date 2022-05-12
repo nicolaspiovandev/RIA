@@ -2,7 +2,13 @@
 .title {
     color: $colorLetra;
     margin: 30px;
+    font-size: xx-large;
+    font-weight: bold;
+    &:hover{
+        color: #718355;
+    }
 }
+
 
 .carrousel {
     margin: 100px 0px;
@@ -22,29 +28,51 @@
     height: 50px;
 }
 
-
+.pd{
+    background-color: #B5C99A;
+}
 .title_pd {
     text-align: center;
-    text-decoration: underline;
+    text-decoration: none;
     font-weight: bold;
+    color: $colorLetra;
+    margin: 50px;
+    padding: 10px 10px;
+    &:hover {
+        text-transform: uppercase;
+        text-decoration: underline;
+        color: $colorLetra;
+}
 }
 
 .productos_d {
     @include flex;
     border: $bordePrincipal;
+    margin: 50px;
+    padding: 10px 10px;
 }
     .articulos_d {
         margin: 20px;
         display: flex;
+        &:hover {
+            background-color: rgb(164, 187, 164);
+
+        }
     }
+    
 
-
+.test{
+    background-color: #718355;
+}
 .title_marcas {
     text-align: center;
     text-decoration: none;
     font-weight: bold;
     color: $colorLetra;
+    margin: 50px;
+    padding: 10px 10px;
     &:hover {
+        text-transform: uppercase;
         text-decoration: underline;
 
     }
@@ -53,12 +81,14 @@
 .marcas {
     @include flex;
     border: $bordePrincipal;
+    margin: 50px;
+    padding: 10px 10px;
 }
 
     .laboratorios {
         margin: 25px;
         display: flex;
-        border: solid 1px rgb(164, 187, 164);
+        border: groove 1px rgb(164, 187, 164);
         &:hover {
             background-color: rgb(164, 187, 164);
 
