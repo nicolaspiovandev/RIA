@@ -3,31 +3,39 @@
 /*Index*/
 @import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+
 .title {
   color: #1b2012c5;
   margin: 30px;
   font-size: xx-large;
-  font-weight: bold; }
-  .title:hover {
-    color: #718355; }
+  font-weight: bold;
+}
+
+.title:hover {
+  color: #718355;
+}
 
 .carrousel {
   margin: 100px 0px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-size: contain; }
+  background-size: contain;
+}
 
 .image {
   margin: 15px;
-  background-size: cover; }
+  background-size: cover;
+}
 
 .slider-control {
   width: 50px;
-  height: 50px; }
+  height: 50px;
+}
 
 .pd {
-  background-color: #B5C99A; }
+  background-color: #B5C99A;
+}
 
 .title_pd {
   text-align: center;
@@ -35,11 +43,14 @@
   font-weight: bold;
   color: #1b2012c5;
   margin: 50px;
-  padding: 10px 10px; }
-  .title_pd:hover {
-    text-transform: uppercase;
-    text-decoration: underline;
-    color: #1b2012c5; }
+  padding: 10px 10px;
+}
+
+.title_pd:hover {
+  text-transform: uppercase;
+  text-decoration: underline;
+  color: #1b2012c5;
+}
 
 .productos_d {
   display: flex;
@@ -47,16 +58,21 @@
   justify-content: center;
   border: solid 1px black;
   margin: 50px;
-  padding: 10px 10px; }
+  padding: 10px 10px;
+}
 
 .articulos_d {
   margin: 20px;
-  display: flex; }
-  .articulos_d:hover {
-    background-color: #a4bba4; }
+  display: flex;
+}
+
+.articulos_d:hover {
+  background-color: #a4bba4;
+}
 
 .test {
-  background-color: #718355; }
+  background-color: #718355;
+}
 
 .title_marcas {
   text-align: center;
@@ -64,10 +80,13 @@
   font-weight: bold;
   color: #1b2012c5;
   margin: 50px;
-  padding: 10px 10px; }
-  .title_marcas:hover {
-    text-transform: uppercase;
-    text-decoration: underline; }
+  padding: 10px 10px;
+}
+
+.title_marcas:hover {
+  text-transform: uppercase;
+  text-decoration: underline;
+}
 
 .marcas {
   display: flex;
@@ -75,22 +94,28 @@
   justify-content: center;
   border: solid 1px black;
   margin: 50px;
-  padding: 10px 10px; }
+  padding: 10px 10px;
+}
 
 .laboratorios {
   margin: 25px;
   display: flex;
-  border: groove 1px #a4bba4; }
-  .laboratorios:hover {
-    background-color: #a4bba4; }
+  border: groove 1px #a4bba4;
+}
+
+.laboratorios:hover {
+  background-color: #a4bba4;
+}
 
 /* Contacto */
 .form {
   text-align: center;
-  margin: 100px; }
+  margin: 100px;
+}
 
 .subtitle_form {
-  color: #1b2012c5; }
+  color: #1b2012c5;
+}
 
 .form-control {
   color: #0b1004a9;
@@ -99,19 +124,34 @@
   background: white;
   border-radius: 0px;
   margin: 15px 0px;
-  height: 36px; }
+  height: 36px;
+}
 
 .btn {
   background-color: #487429;
   color: white;
   border: none;
   height: 35px;
-  font-weight: bold; }
-  .btn:hover {
-    border: 1px solid #83D80D; }
+  font-weight: bold;
+}
+
+.btn:hover {
+  border: 1px solid #83D80D;
+}
+
+.btns {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 30px;
+}
+
+.btn:hover {
+  border: 1px solid #83D80D;
+}
 
 .map iframe {
-  max-width: 100%; }
+  max-width: 100%;
+}
 
 /* Nosotros */
 .title_nosotros {
@@ -120,52 +160,67 @@
   color: #1b2012c5;
   font-weight: bold;
   border: solid 3px black;
-  height: 80px; }
+  height: 80px;
+}
 
 .video_container {
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+}
 
 .video {
   margin: 30px;
-  border: solid 2px #CFE1B9; }
+  border: solid 2px #CFE1B9;
+}
 
-.title_historia, .title_objetivos, .title_vision {
+.title_historia,
+.title_objetivos,
+.title_vision {
   margin: 30px;
   padding: 0;
   text-align: start;
   text-decoration: underline;
   font-weight: bold;
-  color: #1b2012c5; }
+  color: #1b2012c5;
+}
 
 .title_objetivos {
-  background-color: #CFE1B9; }
+  background-color: #CFE1B9;
+}
 
 .historia p {
   margin: 15px;
   border: solid 1px black;
-  background-color: #CFE1B9; }
+  background-color: #CFE1B9;
+}
 
 .objetivos p {
   margin: 15px;
   border: solid 1px black;
-  background-color: #CFE1B9; }
+  background-color: #CFE1B9;
+}
 
 .vision p {
   margin: 15px;
   border: solid 1px black;
-  background-color: #CFE1B9; }
+  background-color: #CFE1B9;
+}
 
 /* Productos */
 .main-productos {
-  margin: 35px 0px; }
+  margin: 35px 0px;
+}
 
 .title_productos {
   color: #1b2012c5;
   text-align: center;
-  text-decoration: none; }
-  .title_productos:hover {
-    text-decoration: underline; }
+  text-decoration: none;
+  padding: 20px;
+}
+
+.title_productos:hover {
+  text-decoration: underline;
+}
 
 .productos {
   background-color: #B5C99A;
@@ -175,41 +230,61 @@
   flex-flow: row wrap;
   justify-content: space-between;
   border: solid 1px black;
-  text-align: center; }
-  .productos:hover {
-    filter: saturate(180%); }
-  .productos img {
-    background-size: contain;
-    border-radius: 100%;
-    border-color: beige; }
-    .productos img:hover {
-      filter: saturate(250%); }
-  .productos button {
-    background-color: #487429;
-    color: white;
-    border-radius: 10%;
-    border-color: grey;
-    height: 50px;
-    font-weight: bold;
-    padding: 10px;
-    text-align: center; }
-    .productos button:hover {
-      border: 0.5px solid #83D80D; }
-  .productos div p {
-    color: black;
-    font-weight: bold; }
+  text-align: center;
+}
+
+.productos:hover {
+  filter: saturate(180%);
+}
+
+.productos img {
+  background-size: contain;
+  border-radius: 100%;
+  border-color: beige;
+}
+
+.productos img:hover {
+  filter: saturate(250%);
+}
+
+.productos button {
+  background-color: #487429;
+  color: white;
+  border-radius: 10%;
+  border-color: grey;
+  height: 50px;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+}
+
+.productos button:hover {
+  border: 0.5px solid #83D80D;
+}
+
+.productos div p {
+  color: black;
+  font-weight: bold;
+}
 
 .articulos {
   margin: 20px;
   display: block;
-  text-align: center; }
+  text-align: center;
+}
 
 .title_otrosproductos {
   color: #1b2012c5;
   text-align: center;
-  text-decoration: none; }
-  .title_otrosproductos:hover {
-    text-decoration: underline; }
+  text-decoration: none;
+}
+.op{
+  margin: 75px;
+
+}
+.title_otrosproductos:hover {
+  text-decoration: underline;
+}
 
 .otros_productos {
   background-color: #B5C99A;
@@ -219,14 +294,18 @@
   justify-content: center;
   flex-wrap: wrap;
   border: solid 1px black;
-  text-align: center; }
-  .otros_productos:hover {
-    filter: saturate(180%); }
+  text-align: center;
+}
+
+.otros_productos:hover {
+  filter: saturate(180%);
+}
 
 .otros_articulos {
   margin: 20px;
   display: block;
-  text-align: center; }
+  text-align: center;
+}
 
 /* Servicios */
 .title_despachos {
@@ -235,12 +314,14 @@
   text-align: center;
   text-decoration: underline;
   font-weight: bold;
-  color: #1b2012c5; }
+  color: #1b2012c5;
+}
 
 .despachos p {
   margin: 15px;
   border: solid 1px black;
-  background-color: #CFE1B9; }
+  background-color: #CFE1B9;
+}
 
 .title_caravanas {
   margin: 30px;
@@ -248,12 +329,14 @@
   text-align: center;
   text-decoration: underline;
   font-weight: bold;
-  color: #1b2012c5; }
+  color: #1b2012c5;
+}
 
 .caravanas p {
   margin: 15px;
   border: solid 1px black;
-  background-color: #CFE1B9; }
+  background-color: #CFE1B9;
+}
 
 .title_reparaciones {
   margin: 30px;
@@ -261,63 +344,85 @@
   text-align: center;
   text-decoration: underline;
   font-weight: bold;
-  color: #1b2012c5; }
+  color: #1b2012c5;
+}
 
 .reparaciones p {
   margin: 15px;
   border: solid 1px black;
-  background-color: #CFE1B9; }
+  background-color: #CFE1B9;
+}
 
 /* RESPONSIVE:TABLET*/
 @media screen and (max-width: 768px) {
   .navbar {
     display: flex;
     flex-flow: column wrap;
-    align-items: center; }
+    align-items: center;
+  }
+
   .span {
     display: flex;
     flex-flow: column wrap;
-    align-items: center; }
+    align-items: center;
+  }
+
   .carrousel {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    align-items: center; }
+    align-items: center;
+  }
+
   .productos_d {
     display: flex;
-    flex-flow: row wrap; }
+    flex-flow: row wrap;
+  }
+
   .footer div {
     display: flex;
     flex-flow: column wrap;
     align-items: center;
-    text-align: center; }
+    text-align: center;
+  }
+
   .form {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
-    align-content: center; }
+    align-content: center;
+  }
+
   .botones {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 10px;
-    padding: 5px; }
+    padding: 5px;
+  }
+
   .btn {
     padding: 4px;
-    margin: 10px; }
+    margin: 10px;
+  }
+
   .productos {
     display: flex;
     flex-flow: column wrap;
     align-items: center;
     justify-content: center;
-    margin: 5px; }
+    margin: 5px;
+  }
+
   .otros_productos {
     display: flex;
     flex-flow: column wrap;
     align-items: center;
     justify-content: center;
-    margin: 5px; } }
+    margin: 5px;
+  }
+}
 
 @media screen and (max-width: 375px) {
   .navbar ul {
@@ -325,70 +430,99 @@
     flex-flow: column wrap;
     align-items: center;
     justify-content: center;
-    margin: 5px; }
+    margin: 5px;
+  }
+
   ul {
-    padding: 0; }
+    padding: 0;
+  }
+
   .navbar h1 {
-    text-align: center; }
+    text-align: center;
+  }
+
   .navbar ul li {
     display: flex;
     flex-direction: column;
     margin: 0;
-    padding: 3px; }
+    padding: 3px;
+  }
+
   .carrousel {
-    margin: 10px; }
+    margin: 10px;
+  }
+
   .form {
     display: flex;
     flex-flow: column wrap;
-    margin: 150px 0px; } }
+    margin: 150px 0px;
+  }
+}
 
 /* Estilos generales */
 * {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 
 html,
 body {
   scroll-behavior: smooth;
   font-family: "Work Sans", sans-serif;
-  background-color: #718355; }
+  background-color: #718355;
+}
 
 body {
-  overflow-x: hidden; }
+  overflow-x: hidden;
+}
 
 .span {
   display: flex;
-  text-decoration: none; }
-  .span:hover {
-    text-decoration: dotted; }
+  text-decoration: none;
+}
+
+.span:hover {
+  text-decoration: dotted;
+}
 
 /* Navbar */
 .navbar {
   background-color: #E9F5DB;
   border: groove;
   display: flex;
-  justify-content: space-between; }
-  .navbar ul {
-    display: flex;
-    justify-content: flex-end;
-    list-style: none;
-    margin: 30px; }
-    .navbar ul li {
-      border: solid 1.5px black;
-      text-decoration: none;
-      margin: 4px; }
+  justify-content: space-between;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  margin: 30px;
+}
+
+.navbar ul li {
+  border: solid 1.5px black;
+  text-decoration: none;
+  margin: 4px;
+}
 
 li a {
   text-decoration: none;
   color: #1b2012c5;
-  font-weight: normal; }
-  li a:hover {
-    color: #0c0c0b; }
+  font-weight: normal;
+}
+
+li a:hover {
+  color: #0c0c0b;
+}
 
 .logo {
-  margin: 30px; }
-  .logo:hover {
-    filter: saturate(180%); }
+  margin: 30px;
+}
+
+.logo:hover {
+  filter: saturate(180%);
+}
 
 /* Whatsapp btn */
 .whatsapp {
@@ -402,41 +536,52 @@ li a {
   border-radius: 50px;
   text-align: center;
   font-size: 30px;
-  z-index: 100; }
-  .whatsapp:hover {
-    opacity: 0.7; }
+  z-index: 100;
+}
+
+.whatsapp:hover {
+  opacity: 0.7;
+}
 
 .whatsapp-icon {
-  margin-top: 13px; }
+  margin-top: 13px;
+}
 
 /* Footer */
 .footer {
   border: groove 0.5px black;
   background-color: #B5C99A;
   display: flex;
-  align-items: center; }
+  align-items: center;
+}
 
 .footer p {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+}
 
 .title-footer {
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+}
 
 .redes {
   display: flex;
   align-items: center;
-  justify-content: center; }
-  .redes a {
-    margin: 3px;
-    color: black; }
+  justify-content: center;
+}
+
+.redes a {
+  margin: 3px;
+  color: black;
+}
 
 .datos {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+}

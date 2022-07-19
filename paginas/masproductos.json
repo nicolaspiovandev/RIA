@@ -1,0 +1,32 @@
+{
+    "masArticulos": [{
+            
+            "codigo": "(7263)",
+            "name": "ROXACIN",
+            "imgPath": "/multimedia/productos/roxacin.jpg",
+            "altImg": "roxacin",
+            "price": 1880
+        },
+        {
+            "codigo": "(15)",
+            "name": "ROBORANTE",
+            "imgPath": "/multimedia/productos/roborante.jpg",
+            "altImg": "roborante",
+            "price": 5630
+        },
+        {
+            "codigo": "(156)",
+            "name": "CICATRIZOL",
+            "imgPath": "/multimedia/productos/cicatrizol.jpg",
+            "altImg": "cicatrizol",
+            "price": 850
+        },
+        {
+            "codigo": "(666)",
+            "name": "AMOXICILINA",
+            "imgPath": "/multimedia/productos/amoxicilina.jpg",
+            "altImg": "amoxicilina",
+            "price": 3150
+        }
+    ]
+}

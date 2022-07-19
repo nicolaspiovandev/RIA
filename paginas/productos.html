@@ -69,37 +69,46 @@
                 <div class="col">
                     <h1 class="title_productos">Productos destacados</h1>
                     <a href="index.html#productos"></a>
-
-                    <div class="productos">
-                        <div class="class">
-                            <img src="/multimedia/productos/terramicina.jpg" alt="terramicina" width="200" height="200">
-                            <p class="articulos">TERRAMICINA</p> <button class="btn1">Comprar</button>
-                        </div>
-                        <div class="class">
-                            <img src="/multimedia/productos/flok.jpg" alt="flok" width="200" height="200">
-                            <p class="articulos">FLOK</p> <button class="btn1">Comprar</button>
-                        </div>
-                        <div class="class">
-                            <img src="/multimedia/productos/dectomax.jpg" alt="dectomax" width="200" height="200">
-                            <p class="articulos">DECTOMAX</p> <button class="btn1">Comprar</button>
-                        </div>
-                        <div class="class">
-                            <img src="/multimedia/productos/ivomec.jpg" alt="ivomec" width="200" height="200">
-                            <p class="articulos">IVOMEC</p> <button class="btn1">Comprar</button>
-                        </div>
-                        <div class="class">
-                            <img src="/multimedia/productos/suplenut.jpg" alt="suplenut" width="200" height="200">
-                            <p class="articulos">SUPLENUT</p> <button class="btn1">Comprar</button>
-                        </div>
-                        <div class="class">
-                            <img src="/multimedia/productos/baymec.jpg" alt="baymec" width="200" height="200">
-                            <p class="articulos">BAYMEC</p> <button class="btn1">Comprar</button>
-                        </div>
+                    <input type="text" id="input_search" placeholder="Ingrese producto"></input>
+                    <button id="btn_buscar" onclick="search()">Buscar</button>
+                    <button id="btn_reset" onclick="reset()">Resetear búsqueda</button>
+                    <button id="btn_asc">Ordenar precio asc</button>
+                    <button id="btn_desc">Ordenar precio desc</button>
+                    <div class="productos" id="lista_productos">
                     </div>
                 </div>
             </div>
+            <div>
+                <div class="productos" id="verMasProductos">
+                    <!-- Mas productos acá -->
+                </div>
+                <div id="masArticulos">
+                    <!-- Mas productos acá -->
+                </div>
+                <h4>Tu carrito:</h4>
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th scope="col">Código:</th>
+                            <th scope="col">Nombre:</th>
+                            <th scope="col">Precio:</th>
+                            <th scope="col">Cantidad:</th>
+                            <th scope="col">Subtotal:</th>
+                            <th scope="col"></th>
+                        </tr>
+                    </thead>
+                    <tbody id="tablabody">
+                        <!-- aqui tabla carrito -->
+                    </tbody>
+                </table>
+                <div id="total"></div>
+                <div class="btns">
+                    <button class="btn" id="btn-clear-cart">VACIAR CARRITO</button>
+                    <button class="btn" id="btn-finalizar-compra">FINALIZAR COMPRA</button>
+                </div>
+            </div>
             <div class="row">
-                <div class="col">
+                <div class="col op">
                     <h2 class="title_otrosproductos">Otros productos</h2>
                     <div class="otros_productos">
                         <p class="otros_articulos">Bactrovet</p>
@@ -158,6 +167,14 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
+
+    <script src="./../JS/productos.js"></script>
+    <script src="./../JS/script.js"></script>
+    <script src="./../JS/masproductos.js"></script>
+
+    <!-- Sweet Alert -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
 </body>
 
 </html>
